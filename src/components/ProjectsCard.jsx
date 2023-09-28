@@ -17,11 +17,11 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
 				</p>
 				<div className='mt-6 flex gap-x-4'>
 					<a href={url} target='_blank'>
-						<TbWorldWww className='h-8 w-8 text-grayishBlue hover:text-emerald-600 dark:text-emerald-100 duration-300' />
+						<TbWorldWww className='h-8 w-8 text-grayishBlue hover:text-emerald-600 hover:dark:text-emerald-500 dark:text-emerald-100 duration-300' />
 					</a>
 
 					<a href={github} target='_blank'>
-						<FaGithubSquare className='h-8 w-8 text-grayishBlue hover:text-emerald-600 dark:text-emerald-100 duration-300' />
+						<FaGithubSquare className='h-8 w-8 text-grayishBlue hover:text-emerald-600 hover:dark:text-emerald-500 dark:text-emerald-100 duration-300' />
 					</a>
 				</div>
 			</div>
