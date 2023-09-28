@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.section-container {
+		@apply mx-auto max-w-7xl px-8;
+	}
+}
+@media screen and (min-width: 768px) {
+	.hero {
+		background: linear-gradient(
+				95deg,
+				rgba(255, 255, 255, 0.9),
+				rgba(0, 0, 0, 0.5)
+			),
+			url('./assets/bgImage.jpg') 50% / cover no-repeat;
+	}
+}
+
+.primary-clr {
+	@apply text-darkGrayishBlue capitalize tracking-wide;
+}
+
+.secondary-clr {
+	@apply text-grayishBlue capitalize tracking-wide;
+}
