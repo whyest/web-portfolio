@@ -4,7 +4,7 @@ import SectionTitle from './SectionTitle'
 const Projects = () => {
 	return (
 		<section
-			className='py-20 dark:bg-slate-900 md:scroll-mt-20 scroll-mt-16'
+			className='bg-white py-20 dark:bg-slate-900 md:scroll-mt-20 scroll-mt-16'
 			id='projects'
 		>
 			<div className='section-container'>
