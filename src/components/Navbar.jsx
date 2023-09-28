@@ -11,14 +11,14 @@ const Navbar = ({ theme, handleThemeSwitch }) => {
 					Web
 					<span className='text-emerald-600'>Dev</span>
 				</h2>
-				<ul className='flex space-x-3 justify-center list-none md:mr-32'>
+				<ul className='flex space-x-3 justify-center list-none md:mr-24'>
 					{links.map(link => {
 						const { id, href, text } = link
 						return (
 							<li key={id}>
 								<a
 									href={href}
-									className='capitalize primary-clr dark:text-emerald-100 md:text-lg text-md px-3 py-1 tracking-wide hover:text-emerald-600 hover:dark:text-emerald-500 duration-300'
+									className='capitalize primary-clr dark:text-emerald-100 md:text-lg text-md px-1 py-1 tracking-wide hover:text-emerald-600 hover:dark:text-emerald-500 duration-300'
 								>
 									{text}
 								</a>
